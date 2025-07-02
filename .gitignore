@@ -1,0 +1,17 @@
+# Local task data (user-specific)
+task.json
+
+# Go build outputs
+*.exe
+*.out
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.swp
+
+# macOS system files
+.DS_Store
