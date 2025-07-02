@@ -30,5 +30,6 @@ func SaveTasks(tasks []Task) error {
 	if err != nil {
 		return err
 	}
+
 	return os.WriteFile(fileName, data, 0644) // 0644 - file permission (owner - write, all - read)
 }
